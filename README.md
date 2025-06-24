@@ -3,6 +3,8 @@ Machine Learning Final Project
 
 Instructions on How to Execute and Reproduce the Results
 
+Dataset : https://www.kaggle.com/datasets/thedevastator/airbnb-prices-in-european-cities
+
 1. Merge Data
    - The `data` folder contains `airbnb_data.zip`.
    - Use this file to run the `Merge_Data.ipynb` notebook.
