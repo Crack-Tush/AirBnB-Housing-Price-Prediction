@@ -1,0 +1,8 @@
+Model,Best Parameters,Best CV Score,Mean Absolute Error,R^2 Score,Time Taken (seconds)
+linear_regression,{'model__fit_intercept': False},-0.43316660451724187,0.4282193722545274,0.6664049764639057,1.7090260982513428
+ridge_regression,"{'model__alpha': 0.001, 'model__fit_intercept': True}",-0.4331666067631609,0.4282193789677926,0.666404970096435,0.6611101627349854
+lasso_regression,"{'model__alpha': 0.001, 'model__fit_intercept': True}",-0.4336710185247766,0.4289887766031153,0.6656183969958342,0.6322801113128662
+polynomial_regression,{'model__poly_features__degree': 2},-0.3952385659449432,0.3894787853903396,0.7159654080325655,960.639110326767
+random_forest,"{'model__max_depth': None, 'model__max_features': 'sqrt', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 200}",-0.35817269562506776,0.3465403892184249,0.7732301263711996,526.0203759670258
+decision_tree,"{'model__max_depth': None, 'model__min_samples_leaf': 1, 'model__min_samples_split': 2}",-0.36968180521857524,0.3297584573593467,0.6911694679313032,9.411457777023315
+xgboost,"{'model__colsample_bytree': 1.0, 'model__learning_rate': 0.2, 'model__max_depth': 7, 'model__min_child_weight': 1, 'model__n_estimators': 300, 'model__subsample': 1.0}",-0.3422080580463976,0.3311586230439916,0.7981379777127858,351.12487387657166
